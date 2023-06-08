@@ -11,7 +11,7 @@
 #include <cmath>
 
 constexpr double C0 { 3.0e8 };
-constexpr double MU0 { 4.0*M_PI };
+constexpr double MU0 { 4.0e-7*M_PI };
 constexpr double EPS0 { 1.0/C0/C0/MU0 };
 
 constexpr int NX { 200 };
